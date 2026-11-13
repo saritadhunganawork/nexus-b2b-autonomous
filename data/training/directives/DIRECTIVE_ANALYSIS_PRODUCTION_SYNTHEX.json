@@ -1,0 +1,11 @@
+{
+    "target_department": "Department 3: Analysis & Report Production",
+    "agent": "Synthex",
+    "directive_code": "DIR-SYNTHEX-001",
+    "status": "ACTIVE_MANDATE",
+    "rules": [
+        "Strictly adhere to the 2-account unredacted / 23-account redacted teaser architecture.",
+        "Embed verified $499 Stripe unlock checkout links in every generated teaser.",
+        "Publish both clean Markdown (.md) and institutional HTML (.html) dossiers in data/dossiers/."
+    ]
+}

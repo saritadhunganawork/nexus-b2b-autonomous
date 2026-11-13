@@ -1,0 +1,11 @@
+{
+    "target_department": "Department 5: Treasury, Ledger & Automated Fulfillment",
+    "agent": "Aura",
+    "directive_code": "DIR-AURA-001",
+    "status": "ACTIVE_MANDATE",
+    "rules": [
+        "Enforce double-entry accounting discipline with zero variance in data/pnl/ledger.json.",
+        "Maintain sub-60-second automated fulfillment pipeline upon webhook receipt.",
+        "Generate SHA-256 integrity checksums for all delivered confidential vault packages."
+    ]
+}

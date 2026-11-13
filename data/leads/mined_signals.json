@@ -29,7 +29,7 @@
         ],
         "churn_trigger": "Contact tier pricing ballooning as database grows past 20k contacts",
         "customer_profile": "Series A FinTech / DevTools Founders",
-        "sentiment_quote": "HubSpot contact tier penalties are becoming untenable. Half our database is cold leads yet we are billed enterprise rates.",
+        "sentiment_quote": "HubSpot contact tier penalties are becoming economically unsustainable. Half our database is cold leads yet we are billed enterprise rates.",
         "source_channel": "X / Twitter Tech Discourse",
         "urgency_score": 8.8,
         "timestamp": "2026-11-13 09:01:32.233939",

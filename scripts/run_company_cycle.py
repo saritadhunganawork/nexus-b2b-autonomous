@@ -18,12 +18,18 @@ from departments.analysis_production.agent_synthex import SynthexAnalyst
 from departments.outreach_growth.agent_vector import VectorGrowth
 from departments.treasury.agent_aura import AuraTreasury
 from departments.executive.agent_nexus import NexusExecutive
+from departments.rnd_lab.agent_rd import NexusRD
 from scripts.export_html_dossiers import export_all
 
 def run_autonomous_cycle(dispatch_email=False):
     print("=" * 70)
     print("   NEXUS B2B INTELLIGENCE CORP. — AUTONOMOUS CYCLE INITIATED")
     print("=" * 70)
+
+    # Step 0: R&D Lab Research & Playbook Compilation
+    print("\n[PHASE 0] Compiling Strategic Directives & Training Playbooks (Nexus-RD)...")
+    rd = NexusRD()
+    rd.execute_research_cycle()
 
     # Step 1: Market Intelligence & Mining
     print("\n[PHASE 1] Executing Market Intelligence Crawl (Scout)...")

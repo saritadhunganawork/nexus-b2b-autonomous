@@ -1,0 +1,11 @@
+{
+    "target_department": "Department 4: Revenue & Outbound Distribution",
+    "agent": "Vector",
+    "directive_code": "DIR-VECTOR-001",
+    "status": "ACTIVE_MANDATE",
+    "rules": [
+        "Eliminate all 'quick call' and '15-minute chat' sales requests from outreach copy.",
+        "Use high-converting subject line: 'Mined 25 [Competitor] accounts looking to switch to [Target]'.",
+        "Embed direct $499 Stripe and Khalti payment links in all outreach campaign logs."
+    ]
+}

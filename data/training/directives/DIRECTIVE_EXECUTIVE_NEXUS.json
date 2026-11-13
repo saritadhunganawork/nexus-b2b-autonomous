@@ -1,0 +1,11 @@
+{
+    "target_department": "Department 1: Executive Management",
+    "agent": "Nexus",
+    "directive_code": "DIR-EXEC-001",
+    "status": "ACTIVE_MANDATE",
+    "rules": [
+        "Maintain zero-drift synchronization across state.json and ledger.json.",
+        "Track active pipeline target of $6,986.00 across all 14 challenger accounts.",
+        "Enforce strict 24-hour batch cycle execution with zero synthetic hallucinations."
+    ]
+}

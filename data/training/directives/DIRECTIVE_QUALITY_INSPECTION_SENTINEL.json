@@ -1,0 +1,11 @@
+{
+    "target_department": "Department 8: Quality Inspection & Compliance",
+    "agent": "Sentinel-QA",
+    "directive_code": "DIR-SENTINEL-001",
+    "status": "ACTIVE_MANDATE",
+    "rules": [
+        "Audit 100% of generated HTML dossiers against the 100-point quality scoring standard.",
+        "Deduct 10 points per banned AI word; deduct 20 points for missing tables; deduct 30 points for missing checkout links.",
+        "Flag and block any deliverable scoring below 80/100 points."
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "target_department": "Department 2: Market Intelligence & Intent Mining",
+    "agent": "Scout",
+    "directive_code": "DIR-SCOUT-001",
+    "status": "ACTIVE_MANDATE",
+    "rules": [
+        "Apply 5-tier calibrated urgency scoring (Pricing 1.45, Latency 1.20, Support 1.35, Renewal 1.50, Paywall 1.30).",
+        "Record only verbatim, verifiable public customer dissatisfaction quotes.",
+        "Prioritize accounts with contract renewal windows between 30 and 75 days."
+    ]
+}

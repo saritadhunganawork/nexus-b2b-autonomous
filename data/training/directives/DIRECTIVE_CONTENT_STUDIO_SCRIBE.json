@@ -1,0 +1,11 @@
+{
+    "target_department": "Department 6: Content Studio & Editorial Standards",
+    "agent": "Scribe",
+    "directive_code": "DIR-SCRIBE-001",
+    "status": "ACTIVE_MANDATE",
+    "rules": [
+        "Permanently ban all 15 synthetic AI jargon words (delve, revolutionize, robust, etc.).",
+        "Quantify operational friction in dollar terms using the Financial Impact Formula.",
+        "Enforce Wall Street Journal / Financial Times memorandum layout across all deliverables."
+    ]
+}
