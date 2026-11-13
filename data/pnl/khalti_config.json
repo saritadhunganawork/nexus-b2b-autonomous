@@ -1,0 +1,10 @@
+{
+    "env": "sandbox",
+    "merchant_account_url": "https://test-admin.khalti.com",
+    "live_merchant_url": "https://admin.khalti.com",
+    "secret_key": "test_secret_key_placeholder",
+    "public_key": "test_public_key_placeholder",
+    "usd_to_npr_rate": 135.0,
+    "return_url": "https://nexusintel.cloud/checkout/success",
+    "website_url": "https://nexusintel.cloud"
+}

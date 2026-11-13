@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "name": "nexus-b2b-autonomous",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "routes": [
+    {
+      "src": "/api/webhook",
+      "dest": "/api/webhook.js"
+    },
+    {
+      "src": "/dossiers/(.*)",
+      "dest": "/public/dossiers/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/public/$1"
+    }
+  ]
+}

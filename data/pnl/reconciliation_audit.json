@@ -1,0 +1,26 @@
+{
+    "audit_id": "AUDIT-20261113-741BD0",
+    "timestamp": "2026-11-13 09:27:20.614700",
+    "status": "RECONCILED_SUCCESS",
+    "financial_summary": {
+        "currency": "USD",
+        "gross_inflows": 499.0,
+        "gross_outflows": 0.0,
+        "net_profit": 499.0,
+        "active_pipeline_value": 6487.0,
+        "transaction_count": 1,
+        "inflow_variance": 0.0,
+        "net_variance": 0.0
+    },
+    "fulfillment_audit": {
+        "total_fulfillments_logged": 1,
+        "unfulfilled_transactions": [],
+        "fulfillment_integrity_pass": true
+    },
+    "vault_readiness": {
+        "campaign_targets_indexed": 14,
+        "vault_dossiers_fulfillable": 14,
+        "vault_coverage_rate": "100%",
+        "missing_dossiers": []
+    }
+}

@@ -1,0 +1,17 @@
+[
+    {
+        "fulfillment_id": "FULF-20261113-6C99EB8C",
+        "tx_id": "KTX-BF51BBC7",
+        "timestamp": "2026-11-13 09:16:49.184451",
+        "fulfilled_to_client": "Nicolas Vorsteher",
+        "client_email": "nicolas@attio.example",
+        "target_brand": "Attio",
+        "deliverable_md": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\NexusIntel-Autonomous\\data\\dossiers\\FULL_VAULT_DOSSIER_ATTIO.md",
+        "deliverable_html": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\NexusIntel-Autonomous\\data\\dossiers\\html\\FULL_VAULT_DOSSIER_ATTIO.html",
+        "sha256_hash_md": "c2bb3b68ad31a70d4b936811e967d9fefc9768c78c8e40e80f6b1af0771e25be",
+        "sha256_hash_html": "14c5aad8539886522694a587c1d32bc354a5383e0258ee409e07fb526a8dd42f",
+        "secure_access_token": "nexus_sec_9eff5158045b424d",
+        "dispatch_protocol": "AUTOMATED_INSTANT_ZERO_LAG",
+        "status": "DELIVERED_CONFIDENTIAL"
+    }
+]

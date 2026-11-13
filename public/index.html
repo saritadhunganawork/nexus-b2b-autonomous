@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexus B2B Intelligence • Autonomous Enterprise Portal</title>
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <style>
+    /* Custom scroll & subtle animations */
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: rgba(148, 163, 184, 0.2); border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: rgba(148, 163, 184, 0.4); }
+    
+    @keyframes pulse-subtle {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.85; transform: scale(1.02); }
+    }
+    .pulse-glow { animation: pulse-subtle 4s infinite ease-in-out; }
+  </style>
+</head>
+<body class="bg-[var(--background)] text-[var(--foreground)] antialiased p-4 md:p-8 min-h-screen">
+
+  <div class="max-w-6xl mx-auto space-y-8">
+
+    <!-- Top Navigation Header -->
+    <header class="flex flex-col md:flex-row md:items-center justify-between pb-6 border-b border-[var(--border)] gap-4">
+      <div class="space-y-1">
+        <div class="flex items-center gap-2">
+          <span class="px-2 py-0.5 rounded text-[11px] font-mono font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+            NEXUS OS v2.1 • 24/7 AUTONOMOUS CLOUD ACTIVE
+          </span>
+          <span class="text-xs text-[var(--muted-foreground)] font-mono">Epoch #2 Trained</span>
+        </div>
+        <h1 class="text-2xl md:text-3xl font-bold tracking-tight text-[var(--foreground)]">Nexus B2B Intelligence Enterprise</h1>
+        <p class="text-xs md:text-sm text-[var(--muted-foreground)]">High-Velocity Competitor Displacement Engine & Autonomous Outbound Pipeline</p>
+      </div>
+
+      <!-- Quick Metrics Pill -->
+      <div class="flex items-center gap-4 bg-[var(--card)] px-4 py-2.5 rounded-xl border border-[var(--border)] shadow-sm">
+        <div>
+          <div class="text-[10px] font-mono text-[var(--muted-foreground)] uppercase">Active Pipeline</div>
+          <div class="text-base font-bold text-emerald-400 font-mono">$6,986.00</div>
+        </div>
+        <div class="h-6 w-px bg-[var(--border)]"></div>
+        <div>
+          <div class="text-[10px] font-mono text-[var(--muted-foreground)] uppercase">Self-Serve Rate</div>
+          <div class="text-base font-bold text-sky-400 font-mono">$499 / unit</div>
+        </div>
+        <div class="h-6 w-px bg-[var(--border)]"></div>
+        <div>
+          <div class="text-[10px] font-mono text-[var(--muted-foreground)] uppercase">Accuracy Index</div>
+          <div class="text-base font-bold text-amber-400 font-mono">9.36 / 10</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Real-Time Intent Scanner Stream -->
+    <section class="bg-[var(--card)] border border-[var(--border)] rounded-2xl p-4 md:p-6 shadow-lg space-y-3">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping"></span>
+          <h2 class="text-xs font-mono uppercase tracking-wider font-semibold text-[var(--foreground)]">Live Web Mining Stream (Public Churn Telemetry)</h2>
+        </div>
+        <span class="text-xs font-mono text-[var(--muted-foreground)]">Sampling G2 • Trustpilot • r/SaaS • Twitter/X</span>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-3 text-xs">
+        <div class="p-3 rounded-xl border border-[var(--border)] bg-[var(--background)]/40 hover:border-sky-500/40 transition-colors">
+          <div class="flex justify-between items-center text-sky-400 font-semibold mb-1 font-mono">
+            <span>Zendesk ➔ Gorgias</span>
+            <span class="text-[10px] bg-sky-500/10 px-1.5 py-0.5 rounded">9.4 Urgency</span>
+          </div>
+          <p class="text-[var(--muted-foreground)] line-clamp-2">"35% price hike on enterprise renewals. No native Shopify refund actions."</p>
+        </div>
+
+        <div class="p-3 rounded-xl border border-[var(--border)] bg-[var(--background)]/40 hover:border-purple-500/40 transition-colors">
+          <div class="flex justify-between items-center text-purple-400 font-semibold mb-1 font-mono">
+            <span>Jira ➔ Linear</span>
+            <span class="text-[10px] bg-purple-500/10 px-1.5 py-0.5 rounded">9.5 Urgency</span>
+          </div>
+          <p class="text-[var(--muted-foreground)] line-clamp-2">"4-second page latency and broken mobile view. 90-person eng team switching."</p>
+        </div>
+
+        <div class="p-3 rounded-xl border border-[var(--border)] bg-[var(--background)]/40 hover:border-amber-500/40 transition-colors">
+          <div class="flex justify-between items-center text-amber-400 font-semibold mb-1 font-mono">
+            <span>HubSpot ➔ Attio</span>
+            <span class="text-[10px] bg-amber-500/10 px-1.5 py-0.5 rounded">8.8 Urgency</span>
+          </div>
+          <p class="text-[var(--muted-foreground)] line-clamp-2">"Contact tier penalties ballooning costs for cold prospects. Need relational CRM."</p>
+        </div>
+
+        <div class="p-3 rounded-xl border border-[var(--border)] bg-[var(--background)]/40 hover:border-emerald-500/40 transition-colors">
+          <div class="flex justify-between items-center text-emerald-400 font-semibold mb-1 font-mono">
+            <span>Salesforce ➔ Apollo</span>
+            <span class="text-[10px] bg-emerald-500/10 px-1.5 py-0.5 rounded">8.9 Urgency</span>
+          </div>
+          <p class="text-[var(--muted-foreground)] line-clamp-2">"Tired of paying $120k/yr for a dedicated admin. Need out-of-the-box data."</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Competitive Moat Benchmark: Nexus vs. Klue vs. Crayon vs. UserGems -->
+    <section class="space-y-4">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-2">
+        <div>
+          <h2 class="text-lg font-bold text-[var(--foreground)]">Competitive Moat Analysis: Why Nexus Crushes Legacy CI</h2>
+          <p class="text-xs text-[var(--muted-foreground)]">Benchmarking against $20,000–$70,000/yr enterprise incumbents</p>
+        </div>
+        <span class="px-2.5 py-1 rounded text-xs font-mono font-semibold bg-blue-500/10 text-blue-400 border border-blue-500/20 self-start md:self-auto">
+          Unfair Advantage: 100% Self-Serve • Turnkey Leads
+        </span>
+      </div>
+
+      <div class="overflow-x-auto rounded-2xl border border-[var(--border)] bg-[var(--card)] shadow-lg">
+        <table class="w-full text-left text-xs">
+          <thead class="bg-[var(--background)]/60 border-b border-[var(--border)] font-mono text-[var(--muted-foreground)] uppercase">
+            <tr>
+              <th class="py-3.5 px-4">Evaluation Criteria</th>
+              <th class="py-3.5 px-4">Klue (Battlecards)</th>
+              <th class="py-3.5 px-4">Crayon (Market Monitor)</th>
+              <th class="py-3.5 px-4">UserGems (Job Switchers)</th>
+              <th class="py-3.5 px-4 text-emerald-400 bg-emerald-500/5">⚡ Nexus B2B Intelligence</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-[var(--border)]">
+            <tr class="hover:bg-[var(--background)]/30 transition-colors">
+              <td class="py-3.5 px-4 font-semibold text-[var(--foreground)]">Annual Entry Cost</td>
+              <td class="py-3.5 px-4 text-rose-400 font-mono">$15,000 – $25,000/yr</td>
+              <td class="py-3.5 px-4 text-rose-400 font-mono">$35,000 – $45,000/yr</td>
+              <td class="py-3.5 px-4 text-rose-400 font-mono">$30,000 – $70,000/yr</td>
+              <td class="py-3.5 px-4 font-bold text-emerald-400 font-mono bg-emerald-500/5">$499 / report (Zero Lock-in)</td>
+            </tr>
+            <tr class="hover:bg-[var(--background)]/30 transition-colors">
+              <td class="py-3.5 px-4 font-semibold text-[var(--foreground)]">Purchasing Friction</td>
+              <td class="py-3.5 px-4 text-[var(--muted-foreground)]">3 weeks sales calls + legal</td>
+              <td class="py-3.5 px-4 text-[var(--muted-foreground)]">Enterprise procurement quotes</td>
+              <td class="py-3.5 px-4 text-[var(--muted-foreground)]">Mandatory annual paper</td>
+              <td class="py-3.5 px-4 font-bold text-emerald-400 bg-emerald-500/5">Instant 1-Click Stripe Checkout</td>
+            </tr>
+            <tr class="hover:bg-[var(--background)]/30 transition-colors">
+              <td class="py-3.5 px-4 font-semibold text-[var(--foreground)]">Deliverable Type</td>
+              <td class="py-3.5 px-4 text-[var(--muted-foreground)]">Internal sales battlecards</td>
+              <td class="py-3.5 px-4 text-[var(--muted-foreground)]">Automated website/news alerts</td>
+              <td class="py-3.5 px-4 text-[var(--muted-foreground)]">Job-change CRM alerts</td>
+              <td class="py-3.5 px-4 font-bold text-emerald-400 bg-emerald-500/5">25 Verified In-Market Accounts + Turnkey Email Copy</td>
+            </tr>
+            <tr class="hover:bg-[var(--background)]/30 transition-colors">
+              <td class="py-3.5 px-4 font-semibold text-[var(--foreground)]">Internal Work Required</td>
+              <td class="py-3.5 px-4 text-rose-400">10-15 hrs/wk dedicated PMM</td>
+              <td class="py-3.5 px-4 text-rose-400">High noise filtering required</td>
+              <td class="py-3.5 px-4 text-[var(--muted-foreground)]">Complex CRM syncing</td>
+              <td class="py-3.5 px-4 font-bold text-emerald-400 bg-emerald-500/5">Zero (Plug-and-play into SDR queue)</td>
+            </tr>
+            <tr class="hover:bg-[var(--background)]/30 transition-colors">
+              <td class="py-3.5 px-4 font-semibold text-[var(--foreground)]">Time to 1st ROI</td>
+              <td class="py-3.5 px-4 text-[var(--muted-foreground)]">60 – 90 days</td>
+              <td class="py-3.5 px-4 text-[var(--muted-foreground)]">45 – 60 days</td>
+              <td class="py-3.5 px-4 text-[var(--muted-foreground)]">30 – 60 days</td>
+              <td class="py-3.5 px-4 font-bold text-emerald-400 bg-emerald-500/5">&lt; 24 Hours</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Recursive Learning & Swarm Health HUD -->
+    <section class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      
+      <!-- Swarm Status Card -->
+      <div class="bg-[var(--card)] border border-[var(--border)] rounded-2xl p-6 shadow-md space-y-4">
+        <div class="flex items-center justify-between">
+          <h3 class="text-sm font-bold text-[var(--foreground)]">Departmental Swarm HUD</h3>
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        </div>
+        <div class="space-y-2 text-xs font-mono">
+          <div class="flex justify-between p-2 rounded bg-[var(--background)]/40 border border-[var(--border)]">
+            <span class="text-[var(--muted-foreground)]">Orchestrator: Nexus</span>
+            <span class="text-emerald-400 font-semibold">Active // Monitoring</span>
+          </div>
+          <div class="flex justify-between p-2 rounded bg-[var(--background)]/40 border border-[var(--border)]">
+            <span class="text-[var(--muted-foreground)]">Web Miner: Scout</span>
+            <span class="text-sky-400 font-semibold">Idle // Waiting Epoch</span>
+          </div>
+          <div class="flex justify-between p-2 rounded bg-[var(--background)]/40 border border-[var(--border)]">
+            <span class="text-[var(--muted-foreground)]">Dossier Synthesizer</span>
+            <span class="text-purple-400 font-semibold">28 Dossiers Cached</span>
+          </div>
+          <div class="flex justify-between p-2 rounded bg-[var(--background)]/40 border border-[var(--border)]">
+            <span class="text-[var(--muted-foreground)]">Growth: Vector</span>
+            <span class="text-amber-400 font-semibold">14 Pitches Queued</span>
+          </div>
+          <div class="flex justify-between p-2 rounded bg-[var(--background)]/40 border border-[var(--border)]">
+            <span class="text-[var(--muted-foreground)]">Treasury: Aura</span>
+            <span class="text-emerald-400 font-semibold">Reconciled // 0 Variance</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Recursive Optimization Card -->
+      <div class="bg-[var(--card)] border border-[var(--border)] rounded-2xl p-6 shadow-md space-y-4">
+        <div class="flex items-center justify-between">
+          <h3 class="text-sm font-bold text-[var(--foreground)]">Recursive Learning Engine</h3>
+          <span class="text-xs font-mono text-purple-400">Epoch #2</span>
+        </div>
+        <div class="space-y-3 text-xs">
+          <div>
+            <div class="flex justify-between text-[var(--muted-foreground)] mb-1">
+              <span>Scoring Weight Convergence</span>
+              <span class="text-purple-400 font-mono">98.4%</span>
+            </div>
+            <div class="w-full bg-[var(--border)] h-1.5 rounded-full overflow-hidden">
+              <div class="bg-purple-500 h-full rounded-full" style="width: 98.4%"></div>
+            </div>
+          </div>
+          <div class="p-3 rounded-xl bg-[var(--background)]/40 border border-[var(--border)] space-y-1 font-mono text-[11px]">
+            <div class="text-emerald-400">✓ Price Surge Weight: 1.45x</div>
+            <div class="text-sky-400">✓ Renewal Timing Weight: 1.50x</div>
+            <div class="text-amber-400">✓ Keyword Resonance: +0.24 Delta</div>
+          </div>
+          <p class="text-[11px] text-[var(--muted-foreground)] italic">
+            Self-tuning algorithm continuously updates weighting heuristics without manual oversight.
+          </p>
+        </div>
+      </div>
+
+      <!-- ROI Calculator -->
+      <div class="bg-[var(--card)] border border-[var(--border)] rounded-2xl p-6 shadow-md space-y-4">
+        <div class="flex items-center justify-between">
+          <h3 class="text-sm font-bold text-[var(--foreground)]">Customer ROI Simulator</h3>
+          <span class="text-xs font-mono text-emerald-400">30-Day Payback</span>
+        </div>
+        <div class="space-y-3 text-xs">
+          <div class="flex justify-between items-center">
+            <span class="text-[var(--muted-foreground)]">Dossier Cost:</span>
+            <span class="font-bold text-[var(--foreground)] font-mono">$499.00</span>
+          </div>
+          <div class="flex justify-between items-center">
+            <span class="text-[var(--muted-foreground)]">Verified In-Market Accounts:</span>
+            <span class="font-bold text-sky-400 font-mono">25 Accounts</span>
+          </div>
+          <div class="flex justify-between items-center">
+            <span class="text-[var(--muted-foreground)]">Conservative Close Rate:</span>
+            <span class="font-bold text-amber-400 font-mono">8% (2 Deals)</span>
+          </div>
+          <div class="p-3 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-center">
+            <div class="text-[10px] uppercase font-mono text-emerald-400 font-semibold">Net Customer Return</div>
+            <div class="text-lg font-bold text-emerald-400 font-mono">$12,000+ ARR</div>
+            <div class="text-[10px] text-emerald-300/80">24x ROI on Single $499 Report</div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Bottom Action Bar -->
+    <div class="p-6 rounded-2xl bg-[var(--card)] border border-[var(--border)] flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="space-y-1 text-center md:text-left">
+        <div class="text-sm font-bold text-[var(--foreground)]">Sleeping Director Governance Status</div>
+        <div class="text-xs text-[var(--muted-foreground)]">
+          Autonomous cycle interval: 24 Hours • Negative confirmation window: 24h • Active notifications: pbanjara2233@gmail.com
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="https://buy.stripe.com/test_nexus_dossier_unlock" target="_blank" class="px-5 py-2.5 rounded-xl font-semibold text-xs bg-emerald-600 hover:bg-emerald-500 text-white transition-all shadow-md shadow-emerald-600/20">
+          Preview Stripe Checkout ($499)
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

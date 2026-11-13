@@ -1,0 +1,28 @@
+{
+    "currency": "USD",
+    "stripe_account_mode": "Standard Connect / Direct Invoicing",
+    "total_inflows": 499.0,
+    "total_outflows": 0.0,
+    "net_profit": 499.0,
+    "transactions": [
+        {
+            "tx_id": "KTX-BF51BBC7",
+            "pidx": "test_khalti_pidx_12345",
+            "timestamp": "2026-11-13 09:16:49.184451",
+            "client_name": "Nicolas Vorsteher",
+            "client_email": "nicolas@attio.example",
+            "target_brand": "Attio",
+            "amount": 499.0,
+            "amount_npr": 67365.0,
+            "currency": "USD (Settled in NPR via Khalti)",
+            "type": "REVENUE_SALE",
+            "payment_processor": "Khalti ePayment (Nepal)",
+            "item_purchased": "Full Vault Displacement Dossier - Attio",
+            "fulfillment_id": "FULF-20261113-6C99EB8C",
+            "status": "COMPLETED_FULFILLED"
+        }
+    ],
+    "active_pipeline_value": 6487.0,
+    "last_reconciled": "2026-11-13 09:27:20.614700",
+    "reconciliation_status": "BALANCED_AUDITED_ZERO_DISCREPANCY"
+}

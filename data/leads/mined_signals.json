@@ -1,0 +1,73 @@
+[
+    {
+        "signal_id": "SIG-2026-081",
+        "incumbent_software": "Zendesk",
+        "challenger_niche": "Customer Support & AI Helpdesk SaaS",
+        "challenger_targets": [
+            "Gorgias",
+            "HelpScout",
+            "Front",
+            "Plain"
+        ],
+        "churn_trigger": "Price increase for Tier 2 seats + mandatory AI add-on fee",
+        "customer_profile": "Mid-market B2B SaaS (50-250 employees)",
+        "sentiment_quote": "Zendesk just hiked our enterprise renewal by 35% with zero negotiation. Looking for a modern, nimble alternative with Slack integrations.",
+        "source_channel": "r/SaaS / Community Forum",
+        "urgency_score": 9.2,
+        "timestamp": "2026-11-13 09:01:32.233939",
+        "calibrated_urgency_score": 9.65
+    },
+    {
+        "signal_id": "SIG-2026-082",
+        "incumbent_software": "HubSpot CRM",
+        "challenger_niche": "B2B Sales CRM & Pipeline Acceleration",
+        "challenger_targets": [
+            "Attio",
+            "Folk",
+            "Close CRM",
+            "Pipedrive"
+        ],
+        "churn_trigger": "Contact tier pricing ballooning as database grows past 20k contacts",
+        "customer_profile": "Series A FinTech / DevTools Founders",
+        "sentiment_quote": "HubSpot contact tier penalties are becoming untenable. Half our database is cold leads yet we are billed enterprise rates.",
+        "source_channel": "X / Twitter Tech Discourse",
+        "urgency_score": 8.8,
+        "timestamp": "2026-11-13 09:01:32.233939",
+        "calibrated_urgency_score": 8.95
+    },
+    {
+        "signal_id": "SIG-2026-083",
+        "incumbent_software": "Jira Software",
+        "challenger_niche": "Engineering Issue Tracker & Project Management",
+        "challenger_targets": [
+            "Linear",
+            "Height",
+            "Shortcut"
+        ],
+        "churn_trigger": "Extreme UI latency, workflow bloat, and broken mobile view",
+        "customer_profile": "VP of Engineering at 80-person Tech Agency",
+        "sentiment_quote": "Our devs spend more time configuring Jira boards than writing PRs. Need a lightweight git-native tracker.",
+        "source_channel": "HackerNews Discussion",
+        "urgency_score": 9.5,
+        "timestamp": "2026-11-13 09:01:32.233939",
+        "calibrated_urgency_score": 9.8
+    },
+    {
+        "signal_id": "SIG-2026-084",
+        "incumbent_software": "Salesforce Sales Cloud",
+        "challenger_niche": "Modern B2B Sales Execution & Automation",
+        "challenger_targets": [
+            "Apollo.io",
+            "Outreach",
+            "Salesloft",
+            "Attio"
+        ],
+        "churn_trigger": "Requires dedicated full-time Salesforce admin just to update custom fields",
+        "customer_profile": "Head of Revenue Operations (120 headcount)",
+        "sentiment_quote": "Tired of paying $150/user/mo plus $120k/yr for a certified admin. We need an intuitive CRM with built-in intent data.",
+        "source_channel": "G2 Crowd Verified Review Grievance",
+        "urgency_score": 8.9,
+        "timestamp": "2026-11-13 09:01:32.233939",
+        "calibrated_urgency_score": 9.05
+    }
+]
