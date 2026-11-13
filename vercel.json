@@ -1,9 +1,18 @@
 {
   "version": 2,
-  "name": "nexus-b2b-autonomous",
   "cleanUrls": true,
   "trailingSlash": false,
+  "crons": [
+    {
+      "path": "/api/cron-cycle",
+      "schedule": "0 0 * * *"
+    }
+  ],
   "routes": [
+    {
+      "src": "/api/cron-cycle",
+      "dest": "/api/cron-cycle.js"
+    },
     {
       "src": "/api/webhook",
       "dest": "/api/webhook.js"
