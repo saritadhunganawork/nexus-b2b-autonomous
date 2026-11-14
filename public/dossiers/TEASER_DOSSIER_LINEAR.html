@@ -175,15 +175,44 @@
         </div>
       </div>
 
-      <div class="pt-4 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="pt-4 border-t border-slate-800 space-y-4">
         <div class="text-xs text-slate-400 flex items-center gap-2">
           <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
           <span>Instant deliverable access upon checkout • Billed as Professional Research</span>
         </div>
 
-        <a href="https://buy.stripe.com/test_nexus_dossier_unlock?client=linear" target="_blank" class="w-full sm:w-auto px-6 py-3 rounded-xl bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold text-xs tracking-wider uppercase transition-all shadow-lg shadow-sky-500/20 text-center">
-          Unlock Full Migration Vault ($499)
-        </a>
+        <!-- Dual Payment Gateways: International Card & Personal Khalti -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <!-- Gateway 1: International Card -->
+          <div class="p-4 rounded-xl bg-slate-900/90 border border-slate-700/80 space-y-3 flex flex-col justify-between">
+            <div>
+              <div class="text-[11px] mono-index font-bold text-sky-400 uppercase">Option A: Global Card / Apple Pay</div>
+              <div class="text-base font-bold text-white mt-1">$499.00 USD</div>
+              <p class="text-[11px] text-slate-400 mt-1">Instant digital delivery for international corporate accounts.</p>
+            </div>
+            <a href="https://buy.stripe.com/test_nexus_dossier_unlock?client=linear" target="_blank" class="w-full py-2.5 px-4 rounded-lg bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold text-xs tracking-wide uppercase transition-all text-center">
+              Pay with Card ($499)
+            </a>
+          </div>
+
+          <!-- Gateway 2: Direct Khalti Transfer (Nepal) -->
+          <div class="p-4 rounded-xl bg-purple-950/40 border border-purple-500/40 space-y-3 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="text-[11px] mono-index font-bold text-purple-300 uppercase">Option B: Direct Khalti Wallet (Nepal)</span>
+                <span class="text-[10px] bg-purple-500/20 text-purple-300 px-1.5 py-0.5 rounded font-mono">KYC Verified</span>
+              </div>
+              <div class="text-base font-bold text-white mt-1">NPR 67,365</div>
+              <div class="text-[11px] text-slate-200 mono-index mt-1.5 space-y-0.5">
+                <div>Khalti Mobile: <strong class="text-purple-300 text-xs">9860477957</strong></div>
+                <div>Account Name: <strong class="text-white">Pradeep Banjara</strong></div>
+              </div>
+            </div>
+            <div class="text-[10px] text-slate-400 leading-tight">
+              Transfer to Khalti ID <strong class="text-slate-200">9860477957</strong> with remark "Linear Vault" for instant automated dispatch to your email.
+            </div>
+          </div>
+        </div>
       </div>
     </div>
             

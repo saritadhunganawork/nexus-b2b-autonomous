@@ -1,10 +1,11 @@
 {
-    "env": "sandbox",
-    "merchant_account_url": "https://test-admin.khalti.com",
-    "live_merchant_url": "https://admin.khalti.com",
-    "secret_key": "test_secret_key_placeholder",
-    "public_key": "test_public_key_placeholder",
-    "usd_to_npr_rate": 135.0,
-    "return_url": "https://nexusintel.cloud/checkout/success",
-    "website_url": "https://nexusintel.cloud"
+  "mode": "personal_p2p_khalti",
+  "account_name": "Pradeep Banjara",
+  "khalti_mobile": "9860477957",
+  "khalti_id": "9860477957",
+  "email": "pbanjara2233@gmail.com",
+  "kyc_verified": true,
+  "usd_amount": 499.00,
+  "npr_amount": 67365.00,
+  "status": "LIVE_DIRECT_WALLET_READY"
 }
